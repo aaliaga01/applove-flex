@@ -1,7 +1,40 @@
+
+
 body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
+  font-family: 'Raleway', sans-serif;
   /* Enlaza la tipografia Open Sans */
 }
+
+/*estiloS MENU*/
+header{
+	position: fixed;
+	background-color: white;
+	width: 100%;
+}
+
+header.flex-container{
+	flex-direction: row;
+	justify-content:space-between;
+	align-content: center;
+}
+
+nav{
+	padding-top: 22px;	
+}
+
+nav a{
+	text-decoration: none;
+	padding: 20px;
+	color:#373B47;
+	font-weight:700;
+}
+
+.logo{
+ width: 70px;
+}
+ 
+/*estilos HOME*/
