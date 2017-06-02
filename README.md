@@ -20,4 +20,4 @@ git init
 git remote add origin htttps://github.com/<usuario>/<nombre-repositorio>.git
 ```
 
-Con estos pasos ya puedes seguir tu workflow de siempre haciendo commits y pusheando a tu repositorio remoto ;)
+Con estos pasos ya puedes seguir tu workflow de siempre haciendo commits y pusheando a tu repositorio remoto :)
