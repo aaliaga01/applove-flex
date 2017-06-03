@@ -94,7 +94,7 @@ h2.text-services {
 
 }
 
-#services.flex-container{
+#services.flex-container{/*esta linea hace que todo se ordene hacia abajo*/
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
@@ -117,7 +117,7 @@ h2.text-work {
 	font-size: 2.1em;
 }
 
-#work.flex-container{
+#work.flex-container{ /*esta linea hace que todo se ordene hacia abajo*/
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
@@ -126,6 +126,11 @@ h2.text-work {
 	padding-top:60px;
 }
 
+.imagen-work{
+	padding-top: 30px;
+}
+
+/*estilos FOOTER*/
 footer{
 	height: 50px;
   	background-color: #373b47;
