@@ -77,4 +77,56 @@ nav a:hover {
   font-size: 14px;
 }
 
+/*estilos SERVICES*/
+#services{
+	background-color:#f17c72;
+	text-align: center;
+  	color:#fff;
+  	padding: 70px;
+}
 
+h2.text-services {
+	font-size: 2.1em;
+}
+
+#services h4{
+	padding: 30px 60px;
+
+}
+
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+#work{
+	background-color:white;
+	text-align: center;
+  	color:black;
+  	padding: 70px;
+}
+
+h2.text-work {
+	font-size: 2.1em;
+}
+
+#work.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+footer{
+	height: 50px;
+  	background-color: #373b47;
+  	color:white;
+  	font-size: 0.8em;
+  	justify-content: space-around;
+  	flex-direction: column;
+  	align-items: center;
+}

@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>AppLove with Flexbox</title>
 	<!-- Importa fontAwesome -->
-	
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<!-- Importa la fuente del proyecto (Open Sans de Google Fonts (https://fonts.google.com) -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet">	<!-- Enlaza tu CSS reutilizable aquí (common.css) -->
 	<link rel="stylesheet" type="text/css" href="css/common.css">
@@ -17,7 +17,7 @@
 		<nav class="menu flex-container">
 			<a href="#services" class="text-uppercase link">Services</a>
 			<a href="#work" class="text-uppercase link">Work</a>
-			<a href="#" class="text-uppercase link">The team</a>
+			<a href="#home" class="text-uppercase link">The team</a>
 			<div class="logo-container">
 				<img src="assets/images/logo-r.png" class="logo" alt="logo" width="70">
 			</div>
@@ -34,28 +34,88 @@
 				<a href="#services" class="btn-home">View services</a>
 	</section>
 
-	<section id="services">
-			<h2>
+	<section id="services" class="flex-container">
+		<h2 class="text-uppercase text-services mt-0">
 			Services
-			</h2>
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+		</h2>
+		<h4>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor diam consequat dolor rhoncus, eu laoreet arcu ultrices. Sed dignissim, justo vel sollicitudin pellentesque, sem nulla ullamcorper metus.
+		</h4>
+			<div class="box-services">
+				<img src="assets/images/website.png" alt="website" width="200">
+				<h5 class="mb-0">USER INTERFACE DESIGN</h5>
+				<h6 class="m-0">Wireframing</h6>
+				<h6 class="m-0">Prototyping</h6>
+				<h6 class="m-0">Usability testing</h6>
+			</div>
+			<div class="box-services">
+				<img src="assets/images/img-1.png" alt="search" width="200">
+				<h5 class="mb-0">CONCEPT AND IDEAS</h5>
+				<h6 class="m-0">Conceptualizations</h6>
+				<h6 class="m-0">Digital Branding</h6>
+				<h6 class="m-0">Product Strategy</h6>
+			</div>
+			<div class="box-services">
+				<img src="assets/images/lapiz.png" alt="lapiz" width="200">
+				<h5 class="mb-0">DESIGN AND BRANDING</h5>
+				<h6 class="m-0">Interaction Design</h6>
+				<h6 class="m-0">Graphic Design</h6>
+				<h6 class="m-0">Identity testing</h6>
+			</div>
 	</section>
 
-	<section id="work">
+	<section id="work" class="flex-container">
 			<h2 class="text-uppercase text-work mt-0">
 			Work
 			</h2>
 			<h4>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-			<div><img src="assets/images/hero.png" alt="laptop" width="800"></div>
-			<div>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor diam consequat dolor rhoncus, eu laoreet arcu ultrices. Sed dignissim, justo vel sollicitudin pellentesque, sem nulla ullamcorper metus.
+			</h4>
+			<div class="imagen-work">
+				<img src="assets/images/hero.png" alt="laptop" width="1100">
+			</div>
+			<div class="box-work">
 				<img src="assets/images/img-1.jpg" alt="branding" width="300">
 				<h5 class="mb-0">NOMBRE DEL PROYECTO</h5> 
-			</div>
+			</div> 
+			<div class="box-work">
+				<img src="assets/images/img-1.jpg" alt="branding" width="300">
+				<h5 class="mb-0">NOMBRE DEL PROYECTO</h5> 
+			</div> 
+			<div class="box-work">
+				<img src="assets/images/img-1.jpg" alt="branding" width="300">
+				<h5 class="mb-0">NOMBRE DEL PROYECTO</h5> 
+			</div> 
+
+			<div class="box-work">
+				<img src="assets/images/img-1.jpg" alt="branding" width="300">
+				<h5 class="mb-0">NOMBRE DEL PROYECTO</h5> 
+			</div> 
+			<div class="box-work">
+				<img src="assets/images/img-1.jpg" alt="branding" width="300">
+				<h5 class="mb-0">NOMBRE DEL PROYECTO</h5> 
+			</div> 
+			<div class="box-work">
+				<img src="assets/images/img-1.jpg" alt="branding" width="300">
+				<h5 class="mb-0">NOMBRE DEL PROYECTO</h5> 
+			</div> 
+
+			<div class="box-work">
+				<img src="assets/images/img-1.jpg" alt="branding" width="300">
+				<h5 class="mb-0">NOMBRE DEL PROYECTO</h5> 
+			</div> 
+			<div class="box-work">
+				<img src="assets/images/img-1.jpg" alt="branding" width="300">
+				<h5 class="mb-0">NOMBRE DEL PROYECTO</h5> 
+			</div> 
+			<div class="box-work">
+				<img src="assets/images/img-1.jpg" alt="branding" width="300">
+				<h5 class="mb-0">NOMBRE DEL PROYECTO</h5> 
+			</div> 
 	</section>
 
-	<footer>
-		<p>&copy; Copyrigth</p>
+	<footer class="flex-container">
+		<p>Made with by <i class="fa fa-heart" aria-hidden="true"></i> Laboratoria</p>
 	</footer>
 
 	<!-- Enlaza tu JS del proyecto aquí -->
